@@ -49,6 +49,6 @@ export default {};
     background-color: black;
 }
 a.router-link-active{
-  background: gray;
+  background: blue;
 }
 </style>
