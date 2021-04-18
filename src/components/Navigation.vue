@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <a class="navbar-brand" href="#">Navbar</a>
     <button
       class="navbar-toggler"
@@ -49,6 +49,6 @@ export default {};
     background-color: black;
 }
 a.router-link-active{
-  background: blue;
+  background: gray
 }
 </style>
