@@ -2,10 +2,12 @@
 <div>
 <Navbar />
 <ImageCarousel />
+
   
   </div>
   <router-view/>
   <Footer />
+  
 </template>
 <script>
 import Navbar from '@/components/Navigation'
@@ -16,7 +18,7 @@ export default {
   components: {
     Navbar,
     ImageCarousel,
-    Footer
+    Footer,
   }
 }
 </script>
