@@ -57,8 +57,12 @@ export default {
 <style>
 .carousel-item > .item > img, .d-block{
   width: 100%;
-  height: 50rem;
+  height: 55em;
 
+}
+
+.carousel-item > .item > img{
+  max-width: 20% !important;
 }
 
 </style>
